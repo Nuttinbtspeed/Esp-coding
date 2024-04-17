@@ -1,0 +1,189 @@
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:89:5: error: 'CAMERA_GRAB_WHEN_EMPTY' conflicts with a previous declaration
+     CAMERA_GRAB_WHEN_EMPTY,         /*!< Fills buffers when they are empty. Less resources but first 'fb_count' frames might be old */
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:89:5: note: previous declaration 'camera_grab_mode_t CAMERA_GRAB_WHEN_EMPTY'
+     CAMERA_GRAB_WHEN_EMPTY,         /*!< Fills buffers when they are empty. Less resources but first 'fb_count' frames might be old */
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:90:5: error: 'CAMERA_GRAB_LATEST' conflicts with a previous declaration
+     CAMERA_GRAB_LATEST              /*!< Except when 1 frame buffer is used, queue will always contain the last 'fb_count' frames */
+     ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:90:5: note: previous declaration 'camera_grab_mode_t CAMERA_GRAB_LATEST'
+     CAMERA_GRAB_LATEST              /*!< Except when 1 frame buffer is used, queue will always contain the last 'fb_count' frames */
+     ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:91:3: error: conflicting declaration 'typedef enum camera_grab_mode_t camera_grab_mode_t'
+ } camera_grab_mode_t;
+   ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:91:3: note: previous declaration as 'typedef enum camera_grab_mode_t camera_grab_mode_t'
+ } camera_grab_mode_t;
+   ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:97:5: error: 'CAMERA_FB_IN_PSRAM' conflicts with a previous declaration
+     CAMERA_FB_IN_PSRAM,         /*!< Frame buffer is placed in external PSRAM */
+     ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:97:5: note: previous declaration 'camera_fb_location_t CAMERA_FB_IN_PSRAM'
+     CAMERA_FB_IN_PSRAM,         /*!< Frame buffer is placed in external PSRAM */
+     ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:98:5: error: 'CAMERA_FB_IN_DRAM' conflicts with a previous declaration
+     CAMERA_FB_IN_DRAM           /*!< Frame buffer is placed in internal DRAM */
+     ^~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:98:5: note: previous declaration 'camera_fb_location_t CAMERA_FB_IN_DRAM'
+     CAMERA_FB_IN_DRAM           /*!< Frame buffer is placed in internal DRAM */
+     ^~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:99:3: error: conflicting declaration 'typedef enum camera_fb_location_t camera_fb_location_t'
+ } camera_fb_location_t;
+   ^~~~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:99:3: note: previous declaration as 'typedef enum camera_fb_location_t camera_fb_location_t'
+ } camera_fb_location_t;
+   ^~~~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:158:3: error: conflicting declaration 'typedef struct camera_config_t camera_config_t'
+ } camera_config_t;
+   ^~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:158:3: note: previous declaration as 'typedef struct camera_config_t camera_config_t'
+ } camera_config_t;
+   ^~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:170:3: error: conflicting declaration 'typedef struct camera_fb_t camera_fb_t'
+ } camera_fb_t;
+   ^~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\CamperCam_VideoWebServer.ino:7:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:170:3: note: previous declaration as 'typedef struct camera_fb_t camera_fb_t'
+ } camera_fb_t;
+   ^~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:89:5: error: 'CAMERA_GRAB_WHEN_EMPTY' conflicts with a previous declaration
+     CAMERA_GRAB_WHEN_EMPTY,         /*!< Fills buffers when they are empty. Less resources but first 'fb_count' frames might be old */
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:89:5: note: previous declaration 'camera_grab_mode_t CAMERA_GRAB_WHEN_EMPTY'
+     CAMERA_GRAB_WHEN_EMPTY,         /*!< Fills buffers when they are empty. Less resources but first 'fb_count' frames might be old */
+     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:90:5: error: 'CAMERA_GRAB_LATEST' conflicts with a previous declaration
+     CAMERA_GRAB_LATEST              /*!< Except when 1 frame buffer is used, queue will always contain the last 'fb_count' frames */
+     ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:90:5: note: previous declaration 'camera_grab_mode_t CAMERA_GRAB_LATEST'
+     CAMERA_GRAB_LATEST              /*!< Except when 1 frame buffer is used, queue will always contain the last 'fb_count' frames */
+     ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:91:3: error: conflicting declaration 'typedef enum camera_grab_mode_t camera_grab_mode_t'
+ } camera_grab_mode_t;
+   ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:91:3: note: previous declaration as 'typedef enum camera_grab_mode_t camera_grab_mode_t'
+ } camera_grab_mode_t;
+   ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:97:5: error: 'CAMERA_FB_IN_PSRAM' conflicts with a previous declaration
+     CAMERA_FB_IN_PSRAM,         /*!< Frame buffer is placed in external PSRAM */
+     ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:97:5: note: previous declaration 'camera_fb_location_t CAMERA_FB_IN_PSRAM'
+     CAMERA_FB_IN_PSRAM,         /*!< Frame buffer is placed in external PSRAM */
+     ^~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:98:5: error: 'CAMERA_FB_IN_DRAM' conflicts with a previous declaration
+     CAMERA_FB_IN_DRAM           /*!< Frame buffer is placed in internal DRAM */
+     ^~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:98:5: note: previous declaration 'camera_fb_location_t CAMERA_FB_IN_DRAM'
+     CAMERA_FB_IN_DRAM           /*!< Frame buffer is placed in internal DRAM */
+     ^~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:99:3: error: conflicting declaration 'typedef enum camera_fb_location_t camera_fb_location_t'
+ } camera_fb_location_t;
+   ^~~~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:99:3: note: previous declaration as 'typedef enum camera_fb_location_t camera_fb_location_t'
+ } camera_fb_location_t;
+   ^~~~~~~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:158:3: error: conflicting declaration 'typedef struct camera_config_t camera_config_t'
+ } camera_config_t;
+   ^~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:158:3: note: previous declaration as 'typedef struct camera_config_t camera_config_t'
+ } camera_config_t;
+   ^~~~~~~~~~~~~~~
+In file included from C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/conversions/include/img_converters.h:24,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:250,
+                 from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32s3/include/esp32-camera/driver/include/esp_camera.h:170:3: error: conflicting declaration 'typedef struct camera_fb_t camera_fb_t'
+ } camera_fb_t;
+   ^~~~~~~~~~~
+In file included from C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:22:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\esp_camera.h:170:3: note: previous declaration as 'typedef struct camera_fb_t camera_fb_t'
+ } camera_fb_t;
+   ^~~~~~~~~~~
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp: In function 'esp_err_t stream_handler(httpd_req_t*)':
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:187:18: error: unused variable 'avg_frame_time' [-Werror=unused-variable]
+         uint32_t avg_frame_time = ra_filter_run(&ra_filter, frame_time);
+                  ^~~~~~~~~~~~~~
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp: In function 'void startCameraServer()':
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:297:1: warning: missing initializer for member 'httpd_uri::handle_ws_control_frames' [-Wmissing-field-initializers]
+ };
+ ^
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:297:1: warning: missing initializer for member 'httpd_uri::supported_subprotocol' [-Wmissing-field-initializers]
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:305:1: warning: missing initializer for member 'httpd_uri::handle_ws_control_frames' [-Wmissing-field-initializers]
+ };
+ ^
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:305:1: warning: missing initializer for member 'httpd_uri::supported_subprotocol' [-Wmissing-field-initializers]
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:313:1: warning: missing initializer for member 'httpd_uri::handle_ws_control_frames' [-Wmissing-field-initializers]
+ };
+ ^
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:313:1: warning: missing initializer for member 'httpd_uri::supported_subprotocol' [-Wmissing-field-initializers]
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp: At global scope:
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:200:18: error: 'esp_err_t parse_get(httpd_req_t*, char**)' defined but not used [-Werror=unused-function]
+ static esp_err_t parse_get(httpd_req_t *req, char **obuf)
+                  ^~~~~~~~~
+C:\Users\nutti\OneDrive\Documents\Arduino\CamperCam\CamperCam_VideoWebServer\app_httpd.cpp:54:12: error: 'button_state' defined but not used [-Werror=unused-variable]
+ static int button_state = 1;
+            ^~~~~~~~~~~~
+cc1plus.exe: some warnings being treated as errors
+
+exit status 1
+
+Compilation error: unused variable 'avg_frame_time' [-Werror=unused-variable]
